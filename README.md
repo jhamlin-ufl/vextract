@@ -78,8 +78,9 @@ in the notebooks/ directory illustrate the entire process from start to finish.
     │   │       ├── 03_T.csv
     │   │       ├── 06_T.csv
     │   │       └── 09_T.csv
-    │   └── source_data
-    │       └── 31_ReBe22_OmniDAC_Run1_15p0bar_14p9GPa_Warming_At5K_Withoutlaser_V34I25_0p1mA
+    │   ├── source_data
+    │   │   └── 31_ReBe22_OmniDAC_Run1_15p0bar_14p9GPa_Warming_At5K_Withoutlaser_V34I25_0p1mA
+    │   └── svg_files
     ├── notebooks
     │   ├── 01_Be22Re-Fig3_extract.ipynb
     │   ├── 02_CSH-Fig1a_extract.ipynb
