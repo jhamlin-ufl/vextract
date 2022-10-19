@@ -8,7 +8,7 @@
 
 **The project is documented in several places, including:**
 1. this github repository,
-2. a data repository on [Zenodo](https://doi.org/10.5281/zenodo.7194017), and
+2. a data repository on [Zenodo](https://zenodo.org/), and
 3. an arXiv publication: [arXiv.org](https://arxiv.org/),
 
 # Getting started
