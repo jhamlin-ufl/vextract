@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/554353987.svg)](https://zenodo.org/badge/latestdoi/554353987)
+
 # vextract
 **Vector extraction of data from scientific publications**
 
@@ -8,8 +10,8 @@
 
 **The project is documented in several places, including:**
 1. this github repository,
-2. a zenodo repository [![DOI](https://zenodo.org/badge/554353987.svg)](https://zenodo.org/badge/latestdoi/554353987), and
-3. an arXiv publication: [arXiv.org](https://arxiv.org/),
+2. a zenodo repository: [zenodo.7226167](https://doi.org/10.5281/zenodo.7226167)
+3. an arXiv publication: [arXiv:2210.10766](https://arxiv.org/abs/2210.10766)
 
 # Getting started
 
