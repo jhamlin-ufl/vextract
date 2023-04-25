@@ -1,3 +1,7 @@
+# Keep copyrighted material out of repository
+data/source_data/PhysRevLett.127.016401.pdf
+data/svg_files/MnS2_page_2.svg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
