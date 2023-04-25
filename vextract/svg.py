@@ -83,7 +83,7 @@ def count_fill_colors(svg):
     <svg> is of the format loaded by svgpathtools.svg2paths.
 
     Return a pandas series where the index is a hex color code,
-    and the value is the number of paths in svg that are that color.
+    and the value is the number of paths in svg with fill of that color.
     '''
     
     paths, attributes = svg
@@ -102,6 +102,29 @@ def count_fill_colors(svg):
     df['colors'] = colors
     return df['colors'].value_counts()
 
+def count_stroke_colors(svg):
+    '''
+    <svg> is of the format loaded by svgpathtools.svg2paths.
+
+    Return a pandas series where the index is a hex color code,
+    and the value is the number of paths in svg with stroke of that color.
+    '''
+    
+    paths, attributes = svg
+
+    stroke_search = re.compile('stroke:(#.{6});')
+
+    colors = []
+    for i in range(len(paths)):
+        attr = attributes[i]
+        if 'style' in attributes[i]:
+            color = stroke_search.findall(attr['style'])  
+            if color:
+                colors.append(color[0])
+
+    df = pd.DataFrame()
+    df['colors'] = colors
+    return df['colors'].value_counts()
 
 def style_string_to_hex(style_string):
     '''
