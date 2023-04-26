@@ -19,7 +19,7 @@ analysis that uncovered similarities in electrical resistance data on
 GeSe<sub>4</sub> published in a
 [2013 dissertation](https://hdl.handle.net/2376/4951)
 and data purportedly
-[measured on Mn<sub>2</sub>](https://doi.org/10.1103/PhysRevLett.130.129901).
+[measured on MnS<sub>2</sub>](https://doi.org/10.1103/PhysRevLett.130.129901).
 
 # Getting started
 
