@@ -13,6 +13,14 @@
 2. a zenodo repository: [zenodo.7226167](https://doi.org/10.5281/zenodo.7226167)
 3. an arXiv publication: [arXiv:2210.10766](https://arxiv.org/abs/2210.10766)
 
+### GeSe<sub>4</sub>/MnS<sub>2</sub> update
+In late April of 2022, the project was updated to include information on an
+analysis that uncovered similarities in electrical resistance data on
+GeSe<sub>4</sub> published in a
+[2013 dissertation](https://hdl.handle.net/2376/4951)
+and data purportedly
+[measured on Mn<sub>2</sub>](https://doi.org/10.1103/PhysRevLett.130.129901).
+
 # Getting started
 
 ## Extracted data
@@ -25,13 +33,17 @@ in the notebooks/ directory illustrate the entire process from start to finish.
 
 ## Running the notebooks yourself
 
-1. I install jupyterlab in a custom environment to ensure reproducibility.  For this, I use [Poetry](https://python-poetry.org/).  If you do not have poetry installed, you can do so using:
+1. I install jupyterlab in a custom environment try to ensure reproducibility.
+For this, I use [Poetry](https://python-poetry.org/).
+If you do not have poetry installed, you can do so using:
 
     ```
     curl -sSL https://install.python-poetry.org | python3 -
     ```
     
-2. You will also need to have the `pdf2svg` utility installed if you want to be able to run the extraction code yourself.  On debian-based systems, this can be installed with:
+2. You will also need to have the `pdf2svg` utility installed
+if you want to be able to run the extraction code yourself.
+On debian-based systems, this can be installed with:
 
     ```
     apt install pdf2svg
@@ -60,50 +72,6 @@ in the notebooks/ directory illustrate the entire process from start to finish.
     ```
     poetry run jupyter-lab
     ```
-
-# Manifest
-    ├── data
-    │   ├── extracted_data
-    │   │   ├── Be22Re-Fig3
-    │   │   │   └── 15_GPa.csv
-    │   │   ├── CSH-Fig1a
-    │   │   │   ├── 174_GPa.csv
-    │   │   │   ├── 210_GPa.csv
-    │   │   │   ├── 220_GPa.csv
-    │   │   │   ├── 243_GPa.csv
-    │   │   │   ├── 250_GPa.csv
-    │   │   │   ├── 258_GPa.csv
-    │   │   │   └── 267_GPa.csv
-    │   │   └── CSH-Fig2b
-    │   │       ├── 00_T.csv
-    │   │       ├── 01_T.csv
-    │   │       ├── 03_T.csv
-    │   │       ├── 06_T.csv
-    │   │       └── 09_T.csv
-    │   ├── source_data
-    │   │   └── 31_ReBe22_OmniDAC_Run1_15p0bar_14p9GPa_Warming_At5K_Withoutlaser_V34I25_0p1mA
-    │   └── svg_files
-    ├── notebooks
-    │   ├── 01_Be22Re-Fig3_extract.ipynb
-    │   ├── 02_CSH-Fig1a_extract.ipynb
-    │   ├── 03_CSH-Fig2b_extract.ipynb
-    │   └── 04_article_plots.ipynb
-    ├── poetry.lock
-    ├── publication_figures
-    │   ├── Fig02.pdf
-    │   ├── Fig03.pdf
-    │   ├── Fig04.pdf
-    │   ├── Fig05.pdf
-    │   ├── Fig06.pdf
-    │   └── Fig07.pdf
-    ├── pyproject.toml
-    ├── README.md
-    └── vextract
-        ├── convert.py
-        ├── filter.py
-        ├── __init__.py
-        ├── svg.py
-        └── unwrap.py
 
 ## Disclaimer
 The extracted data included in the data/Fig1a_data and data/Fig2b_data

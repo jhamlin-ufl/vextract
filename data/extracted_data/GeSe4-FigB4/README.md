@@ -12,3 +12,8 @@ https://hdl.handle.net/2376/4951.
 ## Extraction method
 
 Data were extracted using [WebPlotDigitizer](https://apps.automeris.io/wpd/).
+
+## Higher resolution data
+
+`13p5_GPa_higher_res.csv` was also extracted with WebPlotDigitizer, but using
+a denser sampling of points.
