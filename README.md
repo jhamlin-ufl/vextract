@@ -14,7 +14,7 @@
 3. an arXiv publication: [arXiv:2210.10766](https://arxiv.org/abs/2210.10766)
 
 ### GeSe<sub>4</sub>/MnS<sub>2</sub> update
-In late April of 2022, the project was updated to include information on an
+In late April of 2023, the project was updated to include information on an
 analysis that uncovered similarities in electrical resistance data on
 GeSe<sub>4</sub> published in a
 [2013 dissertation](https://hdl.handle.net/2376/4951)
